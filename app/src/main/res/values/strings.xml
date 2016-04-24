@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mars maps</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">Mars Live</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="google_map_copyright">NASA / JPL / GSFC / Arizona State University</string>
+</resources>
