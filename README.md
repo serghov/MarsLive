@@ -1,6 +1,6 @@
 # Mars Live
 
-Mars Live is an interactive game that transports players to mars. It was created during Nasa [Space Apps Hackathon](https://2016.spaceappschallenge.org/). Please bear in mind that we had limited time so the game might contain bugs and/or unfinished features. Though the project was created during the hackathon, our team will try and maintain the game in our free time.
+Mars Live is an interactive game that transports players to mars. It was created during NASA [Space Apps Hackathon](https://2016.spaceappschallenge.org/). Please bear in mind that we had limited time so the game might contain bugs and/or unfinished features. Though the project was created during the hackathon, our team will try and maintain the game in our free time.
 
 ### The Game
 The idea is that a player will be placed on a location on mars according to his/her earth coordinates so that if two players are close on earth, they will be close on mars too. Each player is placed in a colony according to his location, and is given a set of tasks that he/she needs to complete in order to maintain their colony. Users will be able to browse the map, analize data, and learn new things about the red planet as they play.
@@ -30,7 +30,7 @@ By longpressing at any location on the map, user can find information about that
 
 ### Colonies
 
-A player is asigned to a colony according to his mapped location on mars such that players within 5km are asigned to the same colony. A colony can contain unlimited number of players. If a player is not located in the teretory of any of the existing colonies, a new one is created. Users can see all of the existing colonies on the map in real time. Each colony has a live set of tasks that need to be taken care off, such as doing research about the red planet (finding the elevation of some point on the map, or predicting weather elements) and tasks about maintenance, such as cleaning the solar panels.
+A player is assigned to a colony according to his mapped location on mars such that players within 5km are assigned to the same colony. A colony can contain unlimited number of players. If a player is not located in the territory of any of the existing colonies, a new one is created. Users can see all of the existing colonies on the map in real time. Each colony has a live set of tasks that need to be taken care off, such as doing research about the red planet (finding the elevation of some point on the map, or predicting weather elements) and tasks about maintenance, such as cleaning the solar panels.​
 
 ![Colony](http://i.imgur.com/RI2QlFt.png?1)
 
