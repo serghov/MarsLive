@@ -529,7 +529,7 @@ public class MapActivity extends AppCompatActivity
                 Constants.setToken(result.getToken());
                 WsConnection.getInstance();
                 //WsConnection.getInstance().initializeClient("ws://192.168.8.108:3000/chat?token="+Constants.TOKEN);
-                WsConnection.getInstance().initializeClient("ws://marslive.herokuapp.com/chat?token="+Constants.getToken());
+                WsConnection.getInstance().initializeClient("ws://singularity.am:3000/chat?token="+Constants.getToken());
             }
             //new AsyncColonysArray().execute("http://marslive.herokuapp.com/colonies");
 
@@ -755,12 +755,21 @@ public class MapActivity extends AppCompatActivity
         }
         location = LocationServices.FusedLocationApi.getLastLocation(
                 googleApiClient);
-        if (!isConnected && Constants.getToken().equals("")){
-            isConnected = true;
-            new AsyncTaskRunner().execute(location.getLatitude()+"",location.getLongitude()+"");
+        try {
+            if (!isConnected && Constants.getToken().equals("")){
+                isConnected = true;
+
+                new AsyncTaskRunner().execute(location.getLatitude() + "", location.getLongitude() + "");
+
+            }
+            mainMap.animateTo(new latlon(-location.getLatitude(), -location.getLongitude()));
+            currentGpsLocation();
+        } catch (Exception e)
+        {
+            Intent i = new Intent(getBaseContext(), NoGPSActivity.class);
+            startActivity(i);
         }
-        mainMap.animateTo(new latlon(-location.getLatitude(), -location.getLongitude()));
-        currentGpsLocation();
+
     }
 
     @Override

@@ -13,9 +13,9 @@ public class Constants {
     public static String MY_PREFERENCES = "MyPREFERENCES";
     public static String SenderID = "353450091073";
 
-    public static String USER_REG = /*"http://192.168.8.108:3000/users/register?latitude=";//*/"http://marslive.herokuapp.com/users/register?latitude=";
+    public static String USER_REG = /*"http://192.168.8.108:3000/users/register?latitude=";//*/"http://singularity.am:3000/users/register?latitude=";
     public static String USER_LNG = "&longitude=";
-    public static String TASKS_URL = /*"http://192.168.8.108:3000/tasks";//*/"http://marslive.herokuapp.com/tasks";
+    public static String TASKS_URL = /*"http://192.168.8.108:3000/tasks";//*/"http://singularity.am:3000/tasks";
 
     public static String TOKEN = "";
 
