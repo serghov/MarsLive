@@ -36,7 +36,7 @@ A player is asigned to a colony according to his mapped location on mars such th
 
 ### Chat
 
-In order to add social feel to the game and make players feel on the same planet, we have implemented a simple chat interface that allows players to communicate with each other.
+In order to add a more social feel to the game and make players feel on the same planet, we have implemented a simple chat interface that allows players to communicate with each other even though they are on the different parts of the planet.
 
 ### Software We Used
 
