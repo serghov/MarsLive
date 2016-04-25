@@ -42,15 +42,15 @@ In order to add a more social feel to the game and make players feel on the same
 
 As writing the whole application from scratch would be too time consuming we have used several open source plugins to complete our task
 
-* [Andorid TileView](/moagrius/TileView) for displaying maps
+* [Andorid TileView](https://github.com/moagrius/TileView) for displaying maps
 * [Picasso](http://square.github.io/picasso/) for loading images
-* [Floating search view](/arimorty/floatingsearchview) for displaying search results
-* [Rajawali](/Rajawali/Rajawali) for rendering 3D content
-* [Bottomsheet](/Flipboard/bottomsheet) for several UI components
-* [Gson](/google/gson) for parsing server data
-* [OKhttp](/square/okhttp) loading http data
+* [Floating search view](https://github.com/arimorty/floatingsearchview) for displaying search results
+* [Rajawali](https://github.com/Rajawali/Rajawali) for rendering 3D content
+* [Bottomsheet](https://github.com/Flipboard/bottomsheet) for several UI components
+* [Gson](https://github.com/google/gson) for parsing server data
+* [OKhttp](https://github.com/square/okhttp) loading http data
 
 
 ### Server
 
-Our server is open source as well and you can find it [here](/mhamlet/MarsLiveServer)
+Our server is open source as well and you can find it [here](https://github.com/mhamlet/MarsLiveServer)
